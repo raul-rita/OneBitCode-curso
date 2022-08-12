@@ -1,0 +1,19 @@
+h1 {
+    color: blueviolet;
+    background-color: grey;
+    border: 3px dashed purple;
+}
+
+li {
+    color: rgb(94, 94, 24);
+}
+
+body {
+    background-image: url("https://tm.ibxk.com.br/2021/02/17/17112206419137.jpg?ims=1200x675");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.big-text {
+    font-size: 30px;
+}
