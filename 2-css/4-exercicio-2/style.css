@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.post-container {
+    background-color: #fffafa;
+    width: 70%;
+    margin: auto;
+}
+
+.post {
+    padding: 40px;
+}
+
+.date {
+    color: #008080;
+    font-family: 'Roboto';
+    margin-bottom: 20px;
+}
+
+.post-content {
+    font-family: 'Open sans';
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    margin-bottom: 20px;
+}
