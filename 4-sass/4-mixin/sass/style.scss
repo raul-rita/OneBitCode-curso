@@ -1,0 +1,43 @@
+@mixin text-style ($color, $font-size, $font-family) {
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family;
+}
+
+.texts {
+    h1 {
+        @include text-style(#ff4043, 34px, Arial)
+    }
+
+    p {
+        @include text-style(blue, 22px, sans-serif)
+    }
+}
+
+.btn {
+    width: 125px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    display: block;
+    margin-top: 10px;
+
+    // &.btn-roxo {
+    //     background-color: purple;
+    //     color: white;
+    // }
+
+    &.btn-amarelo {
+        background-color: yellow;
+    }
+
+    &.btn-azul {
+        background-color: blue;
+        color: white;
+    }
+}
+
+.btn-roxo {
+    @extend .btn;
+    background-color: purple;
+    color: white;
+}
