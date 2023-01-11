@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando DOM</title>
+
+    <style>
+        .fonte-grande {
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Posts do Twitter</h1>
+
+    <button onclick="alterarCorDeFundoDoPrimeiroPost()">Alterar cor de fundo do primeiro post</button>
+
+    <button onclick="aumentarFonteSegundoPost()">Aumentar fonte do segundo post</button>
+
+    <article class="post">
+        <p><strong>Raul Rita</strong> <span>@raulrita - 10min</span></p>
+        <p class="texto-post">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, dolore? Animi ipsum ipsam illo nulla 
+            magni cumque corporis officia perspiciatis nobis eum, voluptatibus hic sed quaerat velit tempora laboriosam 
+            enim!
+        </p>
+
+        <br>
+
+        <div class="comentarios">
+            <h3>Comentários:</h3>
+
+            <input name="novo-comentario" type="text" placeholder="Digite o seu comentário">
+
+            <button onclick="adicionarComentario()">Adicionar comentário</button>
+
+            <br>
+
+            <div id="novos-comentarios"></div>
+        </div>
+    </article>
+
+    <article class="post">
+        <p><strong>Raul Rita</strong> <span>@raulrita - 10min</span></p>
+        <p class="texto-post">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, dolore? Animi ipsum ipsam illo nulla 
+            magni cumque corporis officia perspiciatis nobis eum, voluptatibus hic sed quaerat velit tempora laboriosam 
+            enim!
+        </p>
+
+        <br>
+
+        <div class="comentarios">
+            <h3>Comentários:</h3>
+
+            <input name="novo-comentario" type="text" placeholder="Digite o seu comentário">
+
+            <button onclick="adicionarComentario()">Adicionar comentário</button>
+
+            <br>
+
+            <div id="novos-comentarios"></div>
+        </div>
+    </article>
+
+    <h2>Manipulando atributos</h2>
+
+    <button onclick="marcarRadio('F')">Marcar radio feminino</button>
+
+    <button onclick="marcarRadio('M')">Marcar radio masculino</button>
+
+    <br>
+
+    Feminino<input type="radio" name="genero" id="genero-feminino">
+    Masculino<input type="radio" name="genero" id="genero-masculino">
+
+    <!-- <h1>Manipulando DOM</h1>
+    
+    <p id="paragrafo1">Parágrafo 1</p>
+    <p>Parágrafo 2</p>
+
+    <input type="text" name="email" class="tag-de-input" placeholder="digite seu email principal">
+    <input type="text" name="email" class="tag-de-input" placeholder="digite seu email secundário"> -->
+
+    <script src="index.js"></script>
+</body>
+</html>
