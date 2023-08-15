@@ -1,0 +1,54 @@
+.profilePhoto{
+    border-radius: 100%;
+    width: 120px;
+
+}
+
+.title {
+    font-size: 24px;
+    border-bottom: 1px solid #428cd1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    margin-top: 24px;
+}
+
+.paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 16px;
+    border-bottom: 1px solid #428cd1;
+    height: 48px;
+}
+
+.boxButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.btn {
+    background: linear-gradient(90deg, #428cd1, #73cbe7);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    width: 160px;
+    height: 40px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
