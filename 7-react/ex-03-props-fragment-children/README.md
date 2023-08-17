@@ -8,3 +8,4 @@ Currently, two official plugins are available:
 - Fragment
 - Children
 - Props por Rest Param
+- State, useState

@@ -6,13 +6,17 @@ import Paragraph from "../Paragraph"
 import Button from "../Buttons"
 import BoxButtons from "../Buttons/BoxButtons"
 import Avatar from "../Avatar"
+import { useState } from "react"
 
-function handleClick(event) {
-    console.log(event)
-    alert("Você me seguiu.")
-}
 
 export default function Profile({profileImg, profileName, job, telNumber, email, linkedinUrl, github, twitterUrl}) {
+    const [followText, setFollowText] = useState("Follow")
+
+    function handleClick() {
+        alert("Você está seguindo!")
+        setFollowText("Unfollow")
+    }
+
     return (
         <div className={profile.card}>
             <Avatar>
@@ -24,7 +28,7 @@ export default function Profile({profileImg, profileName, job, telNumber, email,
                     onClick={handleClick}
                     className={profile.followButton}
                 >
-                    Seguir
+                    {followText}
                 </button>
             </Title>
             <Paragraph>{job}</Paragraph>
