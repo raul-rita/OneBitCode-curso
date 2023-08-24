@@ -1,0 +1,14 @@
+.btn {
+  background-color: var(--primary-color);
+  padding: .5rem 2rem;
+  color: var(--background-app);
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.btn:hover {
+  background-color: blueviolet;
+}

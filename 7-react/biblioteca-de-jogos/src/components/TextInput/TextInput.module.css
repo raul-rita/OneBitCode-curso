@@ -1,0 +1,17 @@
+.input__box {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.input__box label {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.input__box input {
+  border-color: var(--primary-color);
+  border-radius: .5rem;
+  padding: .5rem;
+  width: 16rem;
+}

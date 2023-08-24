@@ -1,0 +1,14 @@
+.form__box {
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 24px black;
+  gap: .5rem;
+  transition: .5s;
+  width: 100%;
+  text-align: center;
+  background-color: var(--light-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}

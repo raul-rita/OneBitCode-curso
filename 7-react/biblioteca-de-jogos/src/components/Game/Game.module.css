@@ -1,0 +1,20 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 24px black;
+  gap: .5rem;
+  transition: .5s;
+}
+
+.game img {
+  width: 16rem;
+  height: 20rem;
+  border-radius: 1rem;
+}
+
+.game h2 {
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
